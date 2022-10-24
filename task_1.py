@@ -37,12 +37,8 @@ def check_winner(fld):
     else:
         return False
 
-
+print("Сыграем в крестики-нолики? Ячейки с номерами свободны, ставьте крестик или нолик!")
 print_field(my_field)
-move = 4
-
-# my_field.update({f"{move}" : " X "})
-# print_field(my_field)
 
 for i in range(1,10):
     if i%2 != 0:
